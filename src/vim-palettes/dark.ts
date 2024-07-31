@@ -1,6 +1,6 @@
-import {VimPalette} from '../types/vim-paeltte';
-import {VscodePalette} from '../types/vscode-palette';
-import {Color} from '../color';
+import { VimPalette } from '../types/vim-paeltte';
+import { VscodePalette } from '../types/vscode-palette';
+import { Color } from '../color';
 
 const hues = {
 	base: 230,
@@ -207,7 +207,7 @@ export function toVscode(p: VimPalette): VscodePalette {
 		overlaySelection: Color.hsl(hues.base, 0.27, 0.4).withAlpha(0.4),
 		statusBar: {
 			bg: windowBg,
-			fg: p.comment,
+			fg: p.normal.fg,
 			item: {
 				hover: {
 					bg: p.comment.withAlpha(0.125),
