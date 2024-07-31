@@ -1,6 +1,6 @@
-import {Color} from '../color';
-import {VscodePalette} from '../types/vscode-palette';
-import {VscodeTheme} from '../types/vscode-theme';
+import { Color } from '../color';
+import { VscodePalette } from '../types/vscode-palette';
+import { VscodeTheme } from '../types/vscode-theme';
 
 export function create(palette: VscodePalette): VscodeTheme {
 	const p = palette;
@@ -87,8 +87,8 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'editorHoverWidget.border': p.floating.bg,
 			'editorHoverWidget.foreground': p.editor.fg,
 			'editorHoverWidget.statusBarBackground': p.floating.bg,
-			'editorIndentGuide.activeBackground': p.editor.whitespace.fg,
-			'editorIndentGuide.background': p.editor.whitespace.fg.withAlpha(0.25),
+			'editorIndentGuide.activeBackground1': p.editor.whitespace.fg,
+			'editorIndentGuide.background1': p.editor.whitespace.fg.withAlpha(0.25),
 			'editorLightBulb.foreground': p.colors.orange,
 			'editorLightBulbAutoFix.foreground': p.colors.lblue,
 			'editorLineNumber.activeForeground': p.editor.gutter.active.fg,
