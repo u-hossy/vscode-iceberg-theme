@@ -224,7 +224,7 @@ export function toVscode(p: VimPalette): VscodePalette {
 			},
 			inactive: {
 				bg: windowBg,
-				fg: p.comment,
+				fg: p.normal.fg,
 			},
 			unfocusedActive: {
 				fg: p.comment,
