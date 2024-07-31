@@ -59,7 +59,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'editor.foreground': p.editor.fg,
 			'editor.findMatchBackground': p.colors.orange.withAlpha(0.5),
 			'editor.findMatchHighlightBackground': p.colors.orange.withAlpha(0.25),
-			'editor.foldBackground': p.fold.bg,
+			'editor.foldBackground': p.fold.bg.withAlpha(0.125),
 			'editor.lineHighlightBackground': p.editor.lineHighlight.bg,
 			'editor.rangeHighlightBackground': p.colors.orange.withAlpha(0.1),
 			'editor.selectionBackground': p.editor.selection.bg,
