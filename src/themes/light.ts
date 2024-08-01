@@ -1,5 +1,5 @@
-import { VscodePalette } from '../types/vscode-palette';
-import { VscodeTheme } from '../types/vscode-theme';
+import {VscodePalette} from '../types/vscode-palette';
+import {VscodeTheme} from '../types/vscode-theme';
 import * as Dark from './dark';
 
 export function create(palette: VscodePalette): VscodeTheme {
@@ -10,9 +10,8 @@ export function create(palette: VscodePalette): VscodeTheme {
 	t.colors['button.background'] = p.editor.fg;
 	t.colors['button.hoverBackground'] = p.ansi.brightWhite;
 	t.colors['editor.wordHighlightBackground'] = p.colors.blue.withAlpha(0.15);
-	t.colors['editor.wordHighlightStrongBackground'] = p.colors.blue.withAlpha(
-		0.3,
-	);
+	t.colors['editor.wordHighlightStrongBackground'] =
+		p.colors.blue.withAlpha(0.3);
 	t.colors['sideBarSectionHeader.background'] = p.titleBar.active.bg;
 
 	return t;
