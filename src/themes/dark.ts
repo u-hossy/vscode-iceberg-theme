@@ -225,6 +225,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'tab.inactiveBackground': p.tab.inactive.bg,
 			'tab.inactiveForeground': p.tab.inactive.fg,
 			'tab.inactiveModifiedBorder': p.colors.lblue.withAlpha(0.5),
+			'tab.selectedBorderTop': p.colors.blue,
 			'tab.unfocusedActiveForeground': p.tab.unfocusedActive.fg,
 			'tab.unfocusedInactiveForeground': p.tab.unfocusedInactive.fg,
 			'terminal.ansiBlack': p.ansi.black,

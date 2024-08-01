@@ -215,6 +215,7 @@
 		"tab.inactiveBackground": "#c8cfdd",
 		"tab.inactiveForeground": "#33374c",
 		"tab.inactiveModifiedBorder": "#3f83a680",
+		"tab.selectedBorderTop": "#2d539e",
 		"tab.unfocusedActiveForeground": "#8389a3",
 		"tab.unfocusedInactiveForeground": "#8389a380",
 		"terminal.ansiBlack": "#dcdfe7",

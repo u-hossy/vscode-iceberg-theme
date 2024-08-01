@@ -227,6 +227,7 @@ export interface VscodeTheme {
 		'tab.inactiveBackground': ThemeValue;
 		'tab.inactiveForeground': ThemeValue;
 		'tab.inactiveModifiedBorder': ThemeValue;
+		'tab.selectedBorderTop': ThemeValue;
 		'tab.unfocusedActiveForeground': ThemeValue;
 		'tab.unfocusedInactiveForeground': ThemeValue;
 		'terminal.ansiBlack': ThemeValue;
